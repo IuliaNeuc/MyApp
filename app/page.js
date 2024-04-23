@@ -21,7 +21,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-neutral-950 bg-opacity-30 w-full">
+        <div className="bg-neutral-950 bg-opacity-30 w-full p-4">
           <Hero/>
         </div>
       </div>

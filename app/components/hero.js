@@ -5,7 +5,7 @@ import MyPicture from '../img/me.jpg';
 export default function Hero() {
   return (
     <div
-      className="hero w-full h-4/6"
+      className="hero w-full h-4/6 shadow-2xl"
       style={{
         backgroundImage:
           "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
