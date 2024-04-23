@@ -16,7 +16,7 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["nord"], // To change base theme, just replace 'nord' with another theme from the list of themes: https://daisyui.com/docs/themes/
+    themes: ["dim"], // To change base theme, just replace 'nord' with another theme from the list of themes: https://daisyui.com/docs/themes/
   },
   
 };
