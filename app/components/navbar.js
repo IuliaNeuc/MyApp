@@ -1,19 +1,19 @@
 "use client";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
     <div className="navbar bg-neutral text-neutral-content">
       <div className="flex-none">
-        <a className="btn btn-ghost text-xl">Julia Juli</a>
+        <Link href="/">
+          <h1 className="btn btn-ghost text-xl">Julia Juli</h1>
+        </Link>
       </div>
       <div className="drawer drawer-end flex-none">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           {/* Page content here */}
-          <label
-            htmlFor="my-drawer-4"
-            className="drawer-button btn btn-ghost"
-          >
+          <label htmlFor="my-drawer-4" className="drawer-button btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

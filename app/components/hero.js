@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import MyPicture from '../img/me.jpg';
+import MyPicture from "../img/me.jpg";
+import Link from "next/link";
 
-export default function Hero() {
+export default function Hero(imageUrl) {
   return (
     <div
       className="hero w-full h-4/6 shadow-2xl"
@@ -20,7 +21,9 @@ export default function Hero() {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <Link href="/screens/aboutMe">
+            <button className="btn btn-primary">Get Started</button>
+          </Link>
         </div>
       </div>
     </div>
