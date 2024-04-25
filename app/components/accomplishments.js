@@ -52,7 +52,7 @@ export default function Accomplishments() {
           <div className="stat-figure text-secondary">
             <div className="avatar online">
               <div className="w-16 rounded-full">
-                <Image src={MyPicture}/>
+                <Image src={MyPicture} alt="My Picture"/>
               </div>
             </div>
           </div>

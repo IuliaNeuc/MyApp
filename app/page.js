@@ -7,6 +7,10 @@ import ProgressBar from "./components/progressBar";
 import Accomplishments from "./components/accomplishments";
 import InfoCard from "./components/infoCards";
 import MyPicture from "./img/me.jpg";
+import Edu from "./img/education.jpg";
+import Exp from "./img/exp.jpg";
+import Skills from "./img/skills.jpg";
+import { infoCardsData } from "./data";
 
 export default function Home() {
   return (
@@ -29,16 +33,28 @@ export default function Home() {
         </div>
 
         <div className="bg-neutral-950 bg-opacity-30 w-full p-4 flex flex-col">
-          <Hero/>
+          <Hero />
           <Accomplishments />
           <div>
             <h1 className="mb-5 mt-5">Some Title Text</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {/* <InfoCard
+                title="Education"
+                description="Southern Institute of Technology"
+                imageUrl={Edu}
+                buttonText="Know more"
+              />
               <InfoCard
-                title="Custom Title"
-                description="Custom Description"
-                imageUrl={MyPicture}
-                buttonText="Custom Button Text"
+                title="Experience"
+                description="Graduated Student"
+                imageUrl={Exp}
+                buttonText="Know More"
+              />
+              <InfoCard
+                title="My Skills"
+                description="Learn all my professional skills"
+                imageUrl={Skills}
+                buttonText="Know More"
               />
               <InfoCard
                 title="Custom Title"
@@ -57,19 +73,16 @@ export default function Home() {
                 description="Custom Description"
                 imageUrl={MyPicture}
                 buttonText="Custom Button Text"
-              />
+              /> */}
+              {infoCardsData.map((card) => (
               <InfoCard
-                title="Custom Title"
-                description="Custom Description"
-                imageUrl={MyPicture}
-                buttonText="Custom Button Text"
+              key={card.id}
+                title={card.title}
+                description={card.description}
+                imageUrl={card.imageUrl}
+                buttonText={card.buttonText}
               />
-              <InfoCard
-                title="Custom Title"
-                description="Custom Description"
-                imageUrl={MyPicture}
-                buttonText="Custom Button Text"
-              />
+              ))}
             </div>
           </div>
         </div>
