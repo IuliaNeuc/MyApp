@@ -81,6 +81,7 @@ export default function Home() {
                 description={card.description}
                 imageUrl={card.imageUrl}
                 buttonText={card.buttonText}
+                buttonLink={card.buttonLink}
               />
               ))}
             </div>
