@@ -9,7 +9,7 @@ export default function NavBar() {
           <h1 className="btn btn-ghost text-xl">Julia Juli</h1>
         </Link>
       </div>
-      <div className="drawer drawer-end flex-none">
+      <div className="drawer drawer-end flex-none z-50">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           {/* Page content here */}
@@ -29,7 +29,7 @@ export default function NavBar() {
             </svg>
           </label>
         </div>
-        <div className="drawer-side">
+        <div className="drawer-side z-50">
           <label
             htmlFor="my-drawer-4"
             aria-label="close sidebar"
@@ -38,10 +38,39 @@ export default function NavBar() {
           <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
+              <Link href="/screens/aboutMe">
+                <h1>About Me</h1>
+              </Link>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <Link href="/screens/education">
+                <h1>Education</h1>
+              </Link>
+            </li>
+            <li>
+              <Link href="/screens/experience">
+                <h1>Experience</h1>
+              </Link>
+            </li>
+            <li>
+              <Link href="/screens/skills">
+                <h1>Skills</h1>
+              </Link>
+            </li>
+            <li>
+              <Link href="/screens/passion">
+                <h1>Passion</h1>
+              </Link>
+            </li>
+            <li>
+              <Link href="/screens/myArt">
+                <h1>My Art</h1>
+              </Link>
+            </li>
+            <li>
+              <Link href="/screens/dreams">
+                <h1>My Dreams</h1>
+              </Link>
             </li>
           </ul>
         </div>

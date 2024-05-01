@@ -241,3 +241,48 @@ export const saitEducationModals = [
 
   // Add more card data as needed
 ];
+
+//Experience Cards Data
+
+export const experienceCardsData = [
+  {
+    id: 1,
+    title: "Next Js , React Js",
+    title2: " Title",
+    description: "Some Description",
+  },
+  {
+    id: 2,
+    title: "Some Title",
+    title2: " Title",
+    description: "Some Description",
+  },
+  {
+    id: 3,
+    title: "Some Title",
+    title2: "Title",
+    description: "Some Description",
+  },
+];
+
+//Other work experience data
+export const otherExperienceCardsData = [
+  {
+    id: 1,
+    title: "Sale Associate/ Cashier",
+    title2: "2019 - 2020 ZARA, Chinook Center",
+    description: "At 2019 was hired as a sale associate at ZARA Chinook center ",
+  },
+  {
+    id: 2,
+    title: "Visual Commercial",
+    title2: "2020 - 2022 ZARA, Chinook Center",
+    description: "Some Description",
+  },
+  {
+    id: 3,
+    title: "Sale Associate/Cashier",
+    title2: "2022 - 2023  Maggie's Diamond Boutique",
+    description: "Some Description",
+  },
+];
