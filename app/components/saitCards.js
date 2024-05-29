@@ -19,7 +19,7 @@ export default function SaitInfoCard({ title, description, imageUrl, modalTitle,
   
 
   return (
-    <div className="card w-80 h-5/6 bg-base-100 shadow-xl md:hover:scale-105">
+    <div className="card w-80 h-5/6 bg-neutral-950 bg-opacity-55 shadow-xl md:hover:scale-105">
       <figure className=" overflow-hidden ">
         <Image
           src={imageUrl}
@@ -37,8 +37,7 @@ export default function SaitInfoCard({ title, description, imageUrl, modalTitle,
           </button>
           {/* Render the modal */}
           { showModal && (
-            <Modal
-            
+            <Modal            
               isOpen={showModal}
               onClose={closeModal}
               title={modalTitle}

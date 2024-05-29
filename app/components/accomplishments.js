@@ -5,7 +5,7 @@ import MyPicture from "../img/me.jpg"
 export default function Accomplishments() {
   return (
     <div className=" mt-5">
-      <div className="stats shadow w-full">
+      <div className="stats shadow w-full  bg-neutral-950 bg-opacity-60">
         <div className="stat">
           <div className="stat-figure text-primary">
             <svg

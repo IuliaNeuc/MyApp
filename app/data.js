@@ -18,6 +18,39 @@ import MobileApp from "./img/mobileApp.jpg";
 import UXDesign from "./img/uxDesign.jpg";
 import OS from "./img/OS.jpg";
 import SoftwareSecurity from "./img/softwareSecurity.jpg";
+import artPassion from "./img/artPassion.jpg";
+import musicPassion from "./img/musicPassion.jpg";
+import Waterfalls from "./img/Waterfalls.jpg";
+import Skates from "./img/Skates.jpg";
+import Books from "./img/Books.jpg";
+import Volley from "./img/volley.jpg";
+import Poems from "./img/Poems.jpg";
+import Rain from "./img/Rain.jpg";
+import Piano from "./img/piano.jpg";
+import Seasons from "./img/seasons.jpg";
+
+//art images carousel
+import Horse from "./img/whiteHorse.jpg";
+import Rose from "./img/Rose.jpg";
+import Dance from "./img/Dance.jpg";
+import Waterfall from "./img/Waterfall.jpg";
+import Knight from "./img/Knight.jpg";
+import Princes from "./img/Princes.jpg";
+import Swing from "./img/Swing.jpg";
+import Animals from "./img/Animals.jpg";
+//second carousel
+import BackInTimes from "./img/BackInTimes.jpg";
+import EmeraldLake from "./img/EmeraldLake.jpg";
+import Forest from "./img/Forest.jpg";
+import Secret from "./img/Secret.jpg";
+import SilentMountains from "./img/SilentMountains.jpg";
+import TrollWaterfalls from "./img/TrallWaterfall.jpg";
+import SnowHorses from "./img/SnowHorses.jpg";
+
+//Video import
+
+// import PencilDrawing from "./videos/PortraitDrawings.mp4";
+
 
 export const infoCardsData = [
   {
@@ -75,21 +108,39 @@ export const infoCardsData = [
 export const aboutMeCardsData = [
   {
     id: 1,
-    title: "Example Title",
-    description: "Example Description",
-    image: Tree,
+    title: "My Favorite Sport",
+    description: "Since my school days, I have been passionate about the sport of volleyball. For six years, I played professionally on the school team, competing against other teams and honing my skills.",
+    image: Volley,
   },
   {
     id: 2,
-    title: "Example 2 Title",
-    description: "Example 2 Description",
-    image: Edu,
+    title: "My Favorite Weather",
+    description: "Unlike many people, I find joy in rainy weather. On such days, I love to take my red umbrella and venture outside, listening to the soothing sounds of raindrops falling. It captivates me to watch the rain dance on the water, drawing beautiful circles on the glassy surface of my favorite lake. When I get too wet and cold, I return home to enjoy a cup of hot tea and my favorite book by the window.",
+    image: Rain,
   },
   {
     id: 3,
-    title: "Example 3 Title",
-    description: "Example 3 Description",
-    image: Skills,
+    title: "Music in My Heart",
+    description: "My musical preferences often vary with my mood, but I frequently find myself drawn to classical music, with a particular fondness for the guitar and piano. These instruments have the power to soothe my soul and heal my wounds.",
+    image: Piano,
+  },
+  {
+    id: 4,
+    title: "Animals - My Friends",
+    description: "Cats were always my companions during childhood. They were my best friends on lonely days, purring lullabies at night and staying by my side when I was sick. However, my heart was stolen when I later received a sweet German Shepherd puppy. From that moment on, I spent all my time outdoors with my beloved furry friends, cherishing every moment with them.",
+    image: Animals,
+  },
+  {
+    id: 5,
+    title: "Animals - My Friends",
+    description: "Cats were always my companions during childhood. They were my best friends on lonely days, purring lullabies at night and staying by my side when I was sick. However, my heart was stolen when I later received a sweet German Shepherd puppy. From that moment on, I spent all my time outdoors with my beloved furry friends, cherishing every moment with them.",
+    image: Seasons,
+  },
+  {
+    id: 6,
+    title: "Animals - My Friends",
+    description: "Cats were always my companions during childhood. They were my best friends on lonely days, purring lullabies at night and staying by my side when I was sick. However, my heart was stolen when I later received a sweet German Shepherd puppy. From that moment on, I spent all my time outdoors with my beloved furry friends, cherishing every moment with them.",
+    image: Animals,
   },
 ];
 
@@ -248,20 +299,32 @@ export const experienceCardsData = [
   {
     id: 1,
     title: "Next Js , React Js",
-    title2: " Title",
-    description: "Some Description",
+    title2: "One Year of School Experience",
+    description: "During my education, I gained hands-on experience in creating simple apps and websites using React and Next.js. Additionally, I developed a fully functional application utilizing Next.js. My responsibilities included both front-end and back-end development, allowing me to build a comprehensive skill set in full-stack web development.",
   },
   {
     id: 2,
-    title: "Some Title",
-    title2: " Title",
-    description: "Some Description",
+    title: "Java",
+    title2: " Third Semester",
+    description: "During my education at SAIT, I worked extensively with JavaScript, focusing on coding various types of algorithms. My studies primarily concentrated on back-end development, where I honed my skills in creating efficient and effective code.",
   },
   {
     id: 3,
-    title: "Some Title",
-    title2: "Title",
-    description: "Some Description",
+    title: "Python",
+    title2: "First Semester",
+    description: "I had some experience with Python, and despite its brevity, I fell in love with the language. Using Python, I programmed small back-end applications and algorithms. Outside of school, I began researching game programming, further expanding my coding knowledge and skills.",
+  },
+  {
+    id: 4,
+    title: "C# .NET Maui",
+    title2: "Second Semester",
+    description: "Throughout the second semester, I focused on learning C#. My studies involved writing back-end code and algorithms, developing front-end code, and creating small full-stack applications using .NET MAUI. This comprehensive approach provided me with a solid foundation in both front-end and back-end development.",
+  },
+  {
+    id: 5,
+    title: "HTML, CSS, Tailwind CSS, Daisy Ui",
+    title2: "Third, Fourth Semesters",
+    description: "During my first semester, I began learning HTML and CSS, skills I continued to refine throughout my studies. Shortly after, I expanded my knowledge by learning Tailwind CSS and various UI libraries, such as DaisyUI, Bootstrap, and Material-UI. This progression allowed me to create more sophisticated and responsive web designs.",
   },
 ];
 
@@ -271,18 +334,165 @@ export const otherExperienceCardsData = [
     id: 1,
     title: "Sale Associate/ Cashier",
     title2: "2019 - 2020 ZARA, Chinook Center",
-    description: "At 2019 was hired as a sale associate at ZARA Chinook center ",
+    description: "In 2019, I was hired as a Sales Associate at ZARA Chinook Center. My responsibilities included assisting customers, providing consultations on selecting the right outfits and sizes, and ensuring accurate online orders. Additionally, I supported delivery days by organizing the sales floor and placing new inventory.",
   },
   {
     id: 2,
     title: "Visual Commercial",
     title2: "2020 - 2022 ZARA, Chinook Center",
-    description: "Some Description",
+    description: "In 2020, I was promoted to the role of Visual Commercial. In this position, I was responsible for organizing the shop floor, updating mannequins, planning deliveries, placing new items, and managing product rotation. I also handled changing displays, designing displays, and decorating the store. Additionally, I was in charge of planning the shop floor layout during sales periods. A key part of my role involved analyzing sales history, drawing conclusions, and strategizing ways to boost sales.",
   },
   {
     id: 3,
     title: "Sale Associate/Cashier",
     title2: "2022 - 2023  Maggie's Diamond Boutique",
-    description: "Some Description",
+    description: "In 2022, I applied for further studies, which required me to reduce my working hours. Consequently, I transitioned to a new role as a Sales Associate/Cashier at Maggie's Diamonds Boutique. In this position, I provided personalized consultations to customers, helping them choose the right jewelry or order custom pieces. I assisted with selecting diamonds and gold, ensuring customers found the perfect fit for their needs. Additionally, I supported customers with jewelry repairs, enhancing their overall shopping experience.",
   },
 ];
+
+
+export const skillsCardsData = [
+  {
+    id:1,
+    image: Skills,
+    title: "Fast Learner ",
+    desc: "Capable of rapid learning through practical examples, quickly grasping concepts and skills by observing real-world applications.",
+    value: 90,
+    progress: "90%",
+  },
+  {
+    id:2,
+    image: Skills,
+    title: "Communication",
+    desc: "Ability to effectively convey technical concepts to nontechnical stakeholders, good written and verbal communication skills",
+    value: 75,
+    progress: "75%",
+  },
+  {
+    id:3,
+    image: Skills,
+    title: "Problem - Solving",
+    desc: " Aptitude for analyzing complex problems and developing innovative solutions, logical thinking and troubleshooting skills",
+    value: 85,
+    progress: "85%",
+  },
+  {
+    id:4,
+    image: Skills,
+    title: "Adaptability",
+    desc: "  Ability to quickly learn new technologies and programming languages, flexibility to adapt to changing project requirements or environments",
+    value: 85,
+    progress: "85%",
+  },
+  {
+    id:5,
+    image: Skills,
+    title: "Teamwork",
+    desc: "Experience collaborating with peers on group projects, contributing positively to team dynamics, and sharing knowledge and ideas with others.",
+    value: 90,
+    progress: "90%",
+  },
+  {
+    id:6,
+    image: Skills,
+    title: "Time Management",
+    desc: "Demonstrated ability to manage multiple tasks and prioritize work effectively to meet deadlines, strong organizational skills",
+    value: 90,
+    progress: "90%",
+  },
+  {
+    id:7,
+    image: Skills,
+    title: "Self-Learning",
+    desc: "I excel at self-directed learning, adept at synthesizing information from various sources. My forte lies in thorough research, extracting valuable insights, and effectively applying them to expand my knowledge base.",
+    value: 80,
+    progress: "80%",
+  },  
+];
+
+export const passionPageData = [
+  {
+    id:1,
+    image:artPassion,
+    title:"I breathe with Art",
+    desc: "Art is my ultimate passion, a vital part of my existence. I am captivated by painting and drawing, unable to imagine a single day without indulging in my creative pursuits. My room resembles a vibrant gallery, overflowing with countless canvases that bear witness to my countless nights of dedication. Each piece I create is a vivid reflection of my dreams, emotions, and innermost thoughts. "
+  },
+  {
+    id:2,
+    image:musicPassion,
+    title:"Music - a Balm for My Soul",
+    desc: "Music holds a permanent and cherished place in my heart. I can't imagine a day without listening to my favorite songs or strumming my guitar. While I also enjoy playing the piano, mastering it takes time and dedication. After a long day, music serves as a soothing balm, helping me unwind and find peace."
+  },
+  {
+    id:3,
+    image:Waterfalls,
+    title:"Hikes and Waterfalls",
+    desc: "Summertime is my favorite season, and I am passionate about embarking on long hikes deep into the mountains. I truly relish discovering new, breathtaking places, especially waterfalls. There's nothing quite like the magnificent sound of cascading water, and I can spend hours sitting next to a waterfall, savoring the tranquil moments."
+  },
+  {
+    id:4,
+    image:Skates,
+    title:"Skates and Ice",
+    desc: "Although I find Canadian winters to be the most depressing time of the year, I still manage to find joy in the quiet moments spent skating on the frozen lake near my house. The solitude of this peaceful spot, free from crowds, allows me to savor the silence and find a sense of spring in my soul, even in the depths of winter."
+  },
+  {
+    id:5,
+    image:Books,
+    title:"Books",
+    desc: "In today's fast-paced world, amidst the constant influx of emerging technologies, I find solace in the timeless embrace of thick, weathered books. Their worn pages have an unparalleled ability to whisk me away from reality in mere moments. For me, delving into the world of literature is not just an escape, but a sanctuary where I can relinquish all worries and immerse myself completely. I am the type of person who might forego a fashionable dress, ornate jewelry, or even a sumptuous meal, but I simply cannot resist the allure of an intriguing book."
+  },
+  {
+    id:6,
+    image:Poems,
+    title:"Poetry and Poems",
+    desc: "Ever since childhood, poetry has been my cherished companion, a form of music without melody that can set my soul dancing. To me, poetry is one of the myriad ways through which the God speaks to His beloved children. I have always harbored dreams of crafting my own verses, until one day, the God began to whisper them to me, and I eagerly began to transcribe His words. Now, with each verse penned, I find true happiness in the rhythm and flow of His divine inspiration."
+  },
+]
+
+
+
+export const artCarouselData = [
+  {
+    id:1,
+    im1:Horse,
+    t1: "On the Way to a Sunrise",
+    im2:Rose,
+    t2: "Rose in Her Hands",
+    im3:Dance,
+    t3: "Night Dance",
+    im4:Waterfall,
+    t4: "Takkaw Falls",
+    im5:Knight,
+    t5: "A Hero for Herself",
+    im6:Princes,
+    t6: "Before the Ball",
+    im7:Swing,
+    t7: "Bride",
+  },
+  {
+    id:2,
+    im1:BackInTimes,
+    t1: "Back In Times",
+    im2:EmeraldLake,
+    t2: "Emerald Lake",
+    im3:Forest,
+    t3: "Forest",
+    im4:Secret,
+    t4: "Secret Garden",
+    im5:SilentMountains,
+    t5: "Silent Mountains",
+    im6:TrollWaterfalls,
+    t6: "Troll Waterfall",
+    im7:SnowHorses,
+    t7: "Snow Horses",
+  },
+]
+
+export const videoCardData = [
+  {
+    id:1,
+    video: "https://www.facebook.com/100021891780410/videos/259722259823441/",
+    title: "Title",
+    desc: "Description",
+  },
+]

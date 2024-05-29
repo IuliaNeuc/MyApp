@@ -6,16 +6,19 @@ import SchoolVideo from "@/app/components/schoolVideo";
 import Sait from "@/app/components/sait";
 import { saitEducationCards, saitEducationModals } from "@/app/data";
 import SaitInfoCard from "@/app/components/saitCards";
+import Image from "next/image";
+import Stars from "../../img/stars.jpg";
 
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center p-14">
+      <Image src={Stars} alt="Background"  className='absolute inset-0 w-full h-full object-cover pointer-events-none -z-10 filter brightness-75 blur-sm'/>
       <div className="z-10 w-full flex flex-col h-full items-center gap-10 ">
-        <div className="flex flex-col shadow-2xl ml-24 p-20 h-full gap-7 bg-neutral-950 bg-opacity-55 rounded-lg">
+        {/* <div className="flex flex-col shadow-2xl ml-24 p-20 h-full gap-7 bg-neutral-950 bg-opacity-55 rounded-lg"> */}
           <Liceul />
           <SchoolVideo />
-        </div>
-        <div className="flex flex-col shadow-2xl ml-24 p-20 h-full gap-7 bg-neutral-950 bg-opacity-55 rounded-lg">
+        {/* </div> */}
+        {/* <div className="flex flex-col shadow-2xl ml-24 p-20 h-full gap-7 bg-neutral-950 bg-opacity-55 rounded-lg"> */}
           <Sait />
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {saitEducationCards.map((card) => (
@@ -30,7 +33,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </main>
   );
 }

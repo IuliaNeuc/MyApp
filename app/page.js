@@ -11,20 +11,22 @@ import Edu from "./img/education.jpg";
 import Exp from "./img/exp.jpg";
 import Skills from "./img/skills.jpg";
 import { infoCardsData } from "./data";
+import Stars from "./img/stars.jpg";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-14">
-      <div className="z-10 w-screen flex flex-row gap-5 bg-neutral p-4 shadow-2xl">
+      <Image src={Stars} alt="Background" className='absolute inset-0 w-full h-full object-cover pointer-events-none -z-10 filter brightness-75 blur-sm'/>
+      <div className="z-10 w-screen flex flex-row gap-5 p-4">
         <div className="flex flex-col justify-between shadow-2xl">
-          <div className="flex flex-col justify-between items-center bg-neutral-950 bg-opacity-30 shadow-2xl">
+          <div className="flex flex-col justify-between items-center bg-neutral-950 bg-opacity-55 shadow-2xl">
             <Avatar />
             <h1 className=" mb-2 font-bold font">Iulia Neuc (Julia)</h1>
             <p>Front-end Developer</p>
             <p>Back-end Developer</p>
             <p className="mb-2">Ux/UI Designer</p>
           </div>
-          <div className="bg-neutral flex flex-col h-full">
+          <div className="bg-neutral-950 bg-opacity-55 flex flex-col h-full">
             <Progress />
             <div className="divider"></div>
             <ProgressBar />

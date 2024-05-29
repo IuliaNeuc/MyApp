@@ -5,7 +5,7 @@ import Carousel from "./carousel";
 
 export default function Liceul() {
   return (
-    <div className="hero bg-base-200 rounded-lg shadow-lg">
+    <div className="hero bg-neutral-950 rounded-lg shadow-lg bg-opacity-55">
       <div className="hero-content flex-col lg:flex-row">
         <Carousel />
 

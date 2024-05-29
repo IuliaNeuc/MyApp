@@ -2,7 +2,7 @@ import React from "react";
 
 export default function OtherWorkExp({ title, title2, description }) {
   return (
-    <div className="hero bg-primary rounded-lg md:hover:scale-105">
+    <div className="hero bg-neutral-950 bg-opacity-55 rounded-lg md:hover:scale-105">
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className=" w-full p-7">

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="navbar bg-neutral text-neutral-content">
+    <div className="navbar bg-neutral-950 bg-opacity-55 text-neutral-content">
       <div className="flex-none">
         <Link href="/">
           <h1 className="btn btn-ghost text-xl">Julia Juli</h1>
@@ -11,8 +11,8 @@ export default function NavBar() {
       </div>
       <div className="drawer drawer-end flex-none z-50">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
-          {/* Page content here */}
+        <div className="drawer-content ">
+         
           <label htmlFor="my-drawer-4" className="drawer-button btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,9 +33,9 @@ export default function NavBar() {
           <label
             htmlFor="my-drawer-4"
             aria-label="close sidebar"
-            className="drawer-overlay"
+            className="drawer-overlay  "
           ></label>
-          <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+          <ul className="menu p-4 w-80 min-h-full bg-neutral-950 bg-opacity-90 text-base-content">
             {/* Sidebar content here */}
             <li>
               <Link href="/screens/aboutMe">

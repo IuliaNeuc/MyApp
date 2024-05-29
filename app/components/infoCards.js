@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function InfoCard({ title, description, imageUrl, buttonText, buttonLink }) {
   return (
-    <div className="card w-80 h-5/6 bg-base-100 shadow-xl md:hover:scale-105">
+    <div className="card w-80 h-5/6 bg-neutral-950 bg-opacity-60 shadow-xl md:hover:scale-105">
       <figure className=" ">
         <Image
           src={imageUrl}

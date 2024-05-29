@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SchoolVideo() {
   return (
-    <div className="card w-full bg-base-200 shadow-xl">
+    <div className="card w-full bg-neutral-950 bg-opacity-55 shadow-xl">
       <figure className="px-10 pt-10 w-full h-96">
         <iframe
           src="//ok.ru/videoembed/2073745885821"
