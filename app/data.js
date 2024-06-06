@@ -26,7 +26,7 @@ import Books from "./img/Books.jpg";
 import Volley from "./img/volley.jpg";
 import Poems from "./img/Poems.jpg";
 import Rain from "./img/Rain.jpg";
-import Piano from "./img/piano.jpg";
+
 import Seasons from "./img/seasons.jpg";
 
 //art images carousel
@@ -105,6 +105,10 @@ export const infoCardsData = [
   // Add more card data as needed
 ];
 
+import Swings from "./img/Swings2.jpg";
+import Piano2 from "./img/Piano2.jpg";
+import Spring from "./img/Spring3.jpg";
+
 export const aboutMeCardsData = [
   {
     id: 1,
@@ -122,7 +126,7 @@ export const aboutMeCardsData = [
     id: 3,
     title: "Music in My Heart",
     description: "My musical preferences often vary with my mood, but I frequently find myself drawn to classical music, with a particular fondness for the guitar and piano. These instruments have the power to soothe my soul and heal my wounds.",
-    image: Piano,
+    image: Piano2,
   },
   {
     id: 4,
@@ -132,23 +136,26 @@ export const aboutMeCardsData = [
   },
   {
     id: 5,
-    title: "Animals - My Friends",
-    description: "Cats were always my companions during childhood. They were my best friends on lonely days, purring lullabies at night and staying by my side when I was sick. However, my heart was stolen when I later received a sweet German Shepherd puppy. From that moment on, I spent all my time outdoors with my beloved furry friends, cherishing every moment with them.",
-    image: Seasons,
+    title: "I Wish to Live in Spring",
+    description: "While every season carries its own charm, Spring holds a special place in my heart. There's an enchanting allure to witnessing nature awaken from its wintry slumber, bursting forth with vibrant colors and fragrances. As the world outside blooms with new life, I find my spirit blossoming in tandem. Spring breathes vitality into every corner of existence, infusing each moment with a sense of renewal and possibility.",
+    image: Spring,
   },
   {
     id: 6,
-    title: "Animals - My Friends",
-    description: "Cats were always my companions during childhood. They were my best friends on lonely days, purring lullabies at night and staying by my side when I was sick. However, my heart was stolen when I later received a sweet German Shepherd puppy. From that moment on, I spent all my time outdoors with my beloved furry friends, cherishing every moment with them.",
-    image: Animals,
+    title: "Swings in My Heart",
+    description: "Deep within me resides a small child, captivated by the simple joy of swinging back and forth for hours on end. With each gentle sway, she allows her dreams to carry her far beyond the confines of reality, lost in a world where imagination knows no bounds.",
+    image: Swings,
   },
 ];
+
+import RedDress from "./img/RedDress.jpg";
+import MeWaterfall from "./img/MeWaterfall.jpg";
 
 export const aboutMeData = {
   name: "Julia Juli",
   description:
     "Hey there, I'm Iulia, but most folks know me as Julia or Juli. I'm a multi-faceted individual with a myriad of interests. Professionally, I excel in mathematics and have a profound appreciation for chemistry. Yet, it's in the realm of art where I truly find solace, often losing myself in the strokes of a paintbrush. Sport holds a special place in my heart, with volleyball reigning as my favorite. There's something about the thrill of the game and the camaraderie it fosters that keeps me coming back for more.Music serves as my ultimate pick-me-up, acting as a potent remedy for any bout of gloominess. Its melodies have a way of lifting my spirits and carrying me through even the toughest of days. And then there's programming—an undeniable passion of mine. Whether it's crafting seamless user experiences or architecting robust backends, I find myself drawn to the world of web development. Among the myriad of tools at my disposal, React.js, Next.js, Tailwind CSS, and JavaScript stand out as my favorites. There's something immensely satisfying about bringing ideas to life through code, particularly when it involves shaping the frontend of a project. In essence, I'm a blend of logic and creativity, with an insatiable curiosity that propels me forward in both my personal and professional endeavors.",
-  imageUrl: Me, // Can't find the path for some reason , fix it
+  imageUrl: RedDress, // Can't find the path for some reason , fix it
   // Add more personal information as needed
 };
 
@@ -350,11 +357,18 @@ export const otherExperienceCardsData = [
   },
 ];
 
+ import FastLearner from "./img/FastLearner.jpg";
+ import Communication from "./img/Communication.jpg";
+ import ProblemSolving from "./img/ProblemSolving.jpg";
+ import Adaptability from "./img/Adaptability.jpg";
+ import Teamwork from "./img/Teamwork.jpg";
+ import TimeManagement from "./img/TimeManagement.jpg";
+ import SelfLearning from "./img/SelfLearning.jpg";
 
 export const skillsCardsData = [
   {
     id:1,
-    image: Skills,
+    image: FastLearner,
     title: "Fast Learner ",
     desc: "Capable of rapid learning through practical examples, quickly grasping concepts and skills by observing real-world applications.",
     value: 90,
@@ -362,7 +376,7 @@ export const skillsCardsData = [
   },
   {
     id:2,
-    image: Skills,
+    image: Communication,
     title: "Communication",
     desc: "Ability to effectively convey technical concepts to nontechnical stakeholders, good written and verbal communication skills",
     value: 75,
@@ -370,7 +384,7 @@ export const skillsCardsData = [
   },
   {
     id:3,
-    image: Skills,
+    image: ProblemSolving,
     title: "Problem - Solving",
     desc: " Aptitude for analyzing complex problems and developing innovative solutions, logical thinking and troubleshooting skills",
     value: 85,
@@ -378,7 +392,7 @@ export const skillsCardsData = [
   },
   {
     id:4,
-    image: Skills,
+    image: Adaptability,
     title: "Adaptability",
     desc: "  Ability to quickly learn new technologies and programming languages, flexibility to adapt to changing project requirements or environments",
     value: 85,
@@ -386,7 +400,7 @@ export const skillsCardsData = [
   },
   {
     id:5,
-    image: Skills,
+    image: Teamwork,
     title: "Teamwork",
     desc: "Experience collaborating with peers on group projects, contributing positively to team dynamics, and sharing knowledge and ideas with others.",
     value: 90,
@@ -394,7 +408,7 @@ export const skillsCardsData = [
   },
   {
     id:6,
-    image: Skills,
+    image: TimeManagement,
     title: "Time Management",
     desc: "Demonstrated ability to manage multiple tasks and prioritize work effectively to meet deadlines, strong organizational skills",
     value: 90,
@@ -402,7 +416,7 @@ export const skillsCardsData = [
   },
   {
     id:7,
-    image: Skills,
+    image: SelfLearning,
     title: "Self-Learning",
     desc: "I excel at self-directed learning, adept at synthesizing information from various sources. My forte lies in thorough research, extracting valuable insights, and effectively applying them to expand my knowledge base.",
     value: 80,
@@ -488,11 +502,112 @@ export const artCarouselData = [
   },
 ]
 
+
 export const videoCardData = [
   {
+    id: 1,
+    video: "/videos/PortraitDrawings.mp4",
+    title: "Young Queen",
+    desc: "Queen Mab.<br> Her voice was like the voice of common-sense<br>When dinner's steaming on the table, and<br>Her body like a snake's long-slim, and as<br>Her train, a thousand little things like mice<br>Creep in and out, in and out, and crowd<br>The corners of her robe.<br><br> Percy Bysshe Shelley",
+  },
+  {
+    id: 2,
+    video: "/videos/WhiteHorse.mp4",
+    title: "A Date With The Dawn",
+    desc: "As the first light creeps over the hill, <br> A silent world, serene and still.<br>The darkness fades, a soft goodbye,<br>To the twinkling stars in the fading sky. <br> The horizon blushes, a rosy hue, <br>A canvas painted, fresh and new.<br>The night's whisper, now a dawn's song,<br>A melody where all hearts belong.<br>The air, crisp with a hopeful chill,<br>Nature awakes with a tranquil thrill.<br>The dew-kissed flowers gently nod,<br>Bathed in the warmth of a golden god.<br>Birds chirp their tunes, a symphonic call,<br>The dance of life, enthralling all.<br>With every sunrise, life renews,<br>Painting the day with vibrant hues.<br>So let us rise with the morning light,<br>Embrace the day, and hold it tight.<br>For dawn is a gift, a precious sight,<br> A chance to make the world so bright..",
+  },
+  {
+    id: 3,
+    video: "/videos/Portrait.mp4",
+    title: "Rose",
+    desc: "Did you hear about the rose that grew from a crack in the concrete? <br>Proving nature's law is wrong, it learned to walk without having feet.<br>Funny, it seems to by keeping its dreams;<br>It learned to breathe fresh air.<br>Long live the rose that grew from concrete<br>When no one else even cared.<br><br>by Tupac Shakur",
+  },
+];
+
+import Wings from "./img/Wings.jpg";
+import FamousArtist from "./img/FamousArtist.jpg";
+import OuterSpace from "./img/OuterSpace.jpg";
+import Treasure from "./img/Treasure.jpg";
+import Castle from "./img/Castle.jpg";
+import Dolphins from "./img/Dolphins.jpg";
+import WaterfallHouse from "./img/WaterfallHouse.jpg"
+import BlackHorse from "./img/BlackHorse.jpg";
+import Eagle from "./img/Eagle.jpg";
+import Library from "./img/Library.jpg";
+import PastSecrets from "./img/PastSecrets.jpg";
+import Ireland from "./img/Ireland.jpg";
+
+export const swiperData = [
+  {
     id:1,
-    video: "https://www.facebook.com/100021891780410/videos/259722259823441/",
-    title: "Title",
-    desc: "Description",
+    img:Wings,
+    title: " Flying Above the Clouds",
+    desc:" Soaring through the sky, feeling the wind in my hair, and seeing the world from above.",    
+  },
+  {
+    id:2,
+    img:FamousArtist,
+    title: "Becoming a Famous Artist",
+    desc:"Creating beautiful art pieces that captivate the world and having her work displayed in famous galleries.",    
+  },
+  {
+    id:3,
+    img:Ireland,
+    title: "To See the Ireland",
+    desc:" My dream is to explore the enchanting landscapes of Ireland, immersing myself in its rich history and vibrant culture.",    
+  },
+  {
+    id:4,
+    img:OuterSpace,
+    title: "Visiting Outer Space",
+    desc:"Traveling on a spaceship to explore planets, stars, and galaxies far beyond Earth.",    
+  },
+  {
+    id:5,
+    img:Treasure,
+    title:"Finding Hidden Treasure",
+    desc:"Discovering an ancient map that leads to a hidden treasure chest filled with gold, jewels, and other precious items.",    
+  },
+  {
+    id:6,
+    img:Castle,
+    title:"Visit an Ancient Castle:",
+    desc:"Visit an abandoned castle, learn its history. To have a chance to explore its secret passageways and reveal its secrets.",    
+  },
+  {
+    id:7,
+    img:Dolphins,
+    title: "Swimming with Dolphins",
+    desc:"Diving into the ocean and swimming alongside friendly dolphins in crystal-clear waters.",    
+  },
+  {
+    id:8,
+    img:WaterfallHouse,
+    title: "A House Near a Waterfall",
+    desc:"Purchase a historic home nestled near a breathtaking waterfall, deep within an ancient forest. Renovate this charming abode and make it my serene retreat.",    
+  },
+  {
+    id:9,
+    img:BlackHorse,
+    title: "Black Horse",
+    desc:"Acquire a majestic black horse with a magnificent mane and ride it through the forest, exploring uncharted territories.",    
+  },
+  {
+    id:10,
+    img:Eagle,
+    title: "Eagle Pet",
+    desc:"Tame a noble eagle, forming a unique bond as it soars high above, guiding your path through the dense canopy and ancient trails.",    
+  },
+  {
+    id:11,
+    img:Library,
+    title: "Ancient Library",
+    desc:"Visit an ancient library, a treasure trove of knowledge and history. Immerse yourself in the timeless wisdom contained within its dusty tomes.Let the stories and insights of the past fill my mind, providing inspiration and enlightenment as I lose MYSELF in the pages of countless books.",    
+  },
+  {
+    id:12,
+    img:PastSecrets,
+    title: "Mysteries of the Past",
+    desc:"Uncover the secrets of ancient mysteries, piecing together the puzzles of lost civilizations and forgotten tales and reveal hidden truths.",    
   },
 ]

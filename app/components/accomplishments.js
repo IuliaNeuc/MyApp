@@ -22,9 +22,9 @@ export default function Accomplishments() {
               ></path>
             </svg>
           </div>
-          <div className="stat-title">Total Likes</div>
-          <div className="stat-value text-primary">25.6K</div>
-          <div className="stat-desc">21% more than last month</div>
+          <div className="stat-title">GPA</div>
+          <div className="stat-value text-primary">4.0</div>
+          <div className="stat-desc">Software Development Program</div>
         </div>
 
         <div className="stat">
@@ -43,9 +43,9 @@ export default function Accomplishments() {
               ></path>
             </svg>
           </div>
-          <div className="stat-title">Page Views</div>
-          <div className="stat-value text-secondary">2.6M</div>
-          <div className="stat-desc">21% more than last month</div>
+          <div className="stat-title">School Projects Accomplished</div>
+          <div className="stat-value text-secondary">98</div>
+          <div className="stat-desc">20 Courses Taken</div>
         </div>
 
         <div className="stat">
@@ -56,9 +56,9 @@ export default function Accomplishments() {
               </div>
             </div>
           </div>
-          <div className="stat-value">86%</div>
-          <div className="stat-title">Tasks done</div>
-          <div className="stat-desc text-secondary">31 tasks remaining</div>
+          <div className="stat-value"> 3 Years</div>
+          <div className="stat-title">Team Work Experience</div>
+          <div className="stat-desc text-secondary">Team Leader</div>
         </div>
       </div>
     </div>

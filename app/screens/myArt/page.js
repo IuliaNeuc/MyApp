@@ -40,7 +40,7 @@ export default function Page() {
             
         </div>
         <div className="flex flex-col items-center shadow-2xl  p-20 h-full gap-7 bg-neutral-950 bg-opacity-55 rounded-lg">
-          <h1 className="text-center text-3xl font-serif mb-10 mt-5">Check Out Some of My Art Pieces</h1>
+          <h1 className="text-center text-3xl font-serif mb-10 mt-5">How I Create My Art</h1>
           {videoCardData.map((card) => (
             <ArtVideo
             key={card.id}
