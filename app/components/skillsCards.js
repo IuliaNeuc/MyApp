@@ -8,6 +8,7 @@ export default function SkillsCards({image, title, desc, value, progress}) {
         <Image
           src={image}
           className="max-w-sm rounded-lg shadow-2xl"
+          alt="Picture"
         />
         <div className="">
           <h1 className="text-5xl font-bold">{title}</h1>

@@ -13,17 +13,18 @@ export default function SchoolVideo() {
       <div className="card-body items-center text-center">
         <h2 className="card-title">My High School Graduation Day</h2>
         <p>
-          Back at home, we fondly refer to this day as the "Last Bell,"
-          signifying the moment when the 12th-grade students hear the school
-          bell ring for the final time. It's a tradition deeply ingrained in our
-          school's culture, where the graduating seniors prepare a special dance
-          performance for the entire school community to enjoy. Decked in
-          vibrant red ribbons symbolizing the journey to graduation, the
-          students' enthusiasm and spirit light up the entire auditorium. It's a
-          bittersweet moment, filled with nostalgia for the years gone by and
-          excitement for the adventures that lie ahead. This celebration marks
-          the culmination of their academic journey, a testament to their hard
-          work and dedication throughout the years.
+          Back at home, we fondly refer to this day as the &quot;Last
+          Bell,&quot; signifying the moment when the 12th-grade students hear
+          the school bell ring for the final time. It&apos;s a tradition deeply
+          ingrained in our school&apos;s culture, where the graduating seniors
+          prepare a special dance performance for the entire school community to
+          enjoy. Decked in vibrant red ribbons symbolizing the journey to
+          graduation, the students&apos; enthusiasm and spirit light up the
+          entire auditorium. It&apos;s a bittersweet moment, filled with
+          nostalgia for the years gone by and excitement for the adventures that
+          lie ahead. This celebration marks the culmination of their academic
+          journey, a testament to their hard work and dedication throughout the
+          years.
         </p>
       </div>
     </div>
