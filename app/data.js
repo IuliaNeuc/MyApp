@@ -506,19 +506,19 @@ export const artCarouselData = [
 export const videoCardData = [
   {
     id: 1,
-    video: "/videos/PortraitDrawings.mp4",
+    video: "./videos/PortraitDrawings.mp4",
     title: "Young Queen",
     desc: "Queen Mab.<br> Her voice was like the voice of common-sense<br>When dinner's steaming on the table, and<br>Her body like a snake's long-slim, and as<br>Her train, a thousand little things like mice<br>Creep in and out, in and out, and crowd<br>The corners of her robe.<br><br> Percy Bysshe Shelley",
   },
   {
     id: 2,
-    video: "/videos/WhiteHorse.mp4",
+    video: "./videos/WhiteHorse.mp4",
     title: "A Date With The Dawn",
     desc: "As the first light creeps over the hill, <br> A silent world, serene and still.<br>The darkness fades, a soft goodbye,<br>To the twinkling stars in the fading sky. <br> The horizon blushes, a rosy hue, <br>A canvas painted, fresh and new.<br>The night's whisper, now a dawn's song,<br>A melody where all hearts belong.<br>The air, crisp with a hopeful chill,<br>Nature awakes with a tranquil thrill.<br>The dew-kissed flowers gently nod,<br>Bathed in the warmth of a golden god.<br>Birds chirp their tunes, a symphonic call,<br>The dance of life, enthralling all.<br>With every sunrise, life renews,<br>Painting the day with vibrant hues.<br>So let us rise with the morning light,<br>Embrace the day, and hold it tight.<br>For dawn is a gift, a precious sight,<br> A chance to make the world so bright..",
   },
   {
     id: 3,
-    video: "/videos/Portrait.mp4",
+    video: "./videos/Portrait.mp4",
     title: "Rose",
     desc: "Did you hear about the rose that grew from a crack in the concrete? <br>Proving nature's law is wrong, it learned to walk without having feet.<br>Funny, it seems to by keeping its dreams;<br>It learned to breathe fresh air.<br>Long live the rose that grew from concrete<br>When no one else even cared.<br><br>by Tupac Shakur",
   },

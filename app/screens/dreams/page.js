@@ -48,6 +48,7 @@ export default function Page() {
                 depth: 100,
                 modifier: 1,
                 slideShadows: true,
+               
               }}
               pagination={true}
               modules={[EffectCoverflow, Pagination]}
@@ -60,8 +61,8 @@ export default function Page() {
                   <Image
                     src={item.img}
                     alt="Nature"
-                    // width={600}
-                    // height={400}
+                    width={600}
+                    height={400}
                     className="opacity-55"
                   />
 
