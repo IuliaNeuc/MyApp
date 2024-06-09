@@ -60,8 +60,8 @@ export default function Page() {
                   <Image
                     src={item.img}
                     alt="Nature"
-                    width={600}
-                    height={400}
+                    // width={600}
+                    // height={400}
                     className="opacity-55"
                   />
 
