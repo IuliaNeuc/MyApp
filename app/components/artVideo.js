@@ -7,10 +7,10 @@ export default function ArtVideo({ video, title, desc }) {
         <video
           width={400}
           height={300}
-          src={video}
+          // src={video}          
           controls
           className="rounded-lg shadow-2xl w-full h-full object-cover"
-        ></video>
+        ><source src={video} type="video/mp4" /></video>
       </figure>
       <div className="card-body w-2/3 flex flex-col justify-center">
         <h2 className=" text-3xl font-serif text-center">{title}</h2>
